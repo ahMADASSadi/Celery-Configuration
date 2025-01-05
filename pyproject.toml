@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "celery configuration"
+version = "0.1.0"
+description = "a simple celery configuration for django"
+authors = ["ahMAD ASSadi <ds1380ahmad@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
